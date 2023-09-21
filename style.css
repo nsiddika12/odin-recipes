@@ -1,0 +1,82 @@
+* {
+    background-color: papayawhip;
+}
+.page-title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+    font-weight:900;
+    background-color:bisque;
+    border-bottom: 5px solid rosybrown;
+    color:rosybrown;
+    display:flex;
+    justify-content:center;
+    border-radius: 15px;
+}
+
+.draw {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+    opacity: 0.75;
+}
+.recipe-links {
+    padding: 15px;
+    margin-bottom: 70px;
+    width: 30%;
+    background-color: rgb(252, 233, 210);
+    border: 3px solid whitesmoke;
+    border-radius: 40%;
+    display:flex;
+    list-style:none;
+    flex-direction: column;
+    align-items: center;
+    }
+.recipe-links li {
+    font-size: larger;
+}
+
+a:hover {
+color: rosybrown;
+}
+a:visited {
+    color:rgb(167, 144, 144); 
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 15%;
+}
+.description {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.directions .ingredients {
+    text-align: left;
+    font-size: 35px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid whitesmoke;
+    border-radius: 3%;
+    background-color: bisque;
+    margin: 12%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.directions, .ingredients, .description, .list {
+    color: rgb(55, 48, 39);
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+  ul, ol, li, h3 {
+    background-color: bisque;
+  }
